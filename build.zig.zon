@@ -34,7 +34,7 @@
     .dependencies = .{
         .wstdout = .{
             .url = "https://github.com/deeper-x/wstdout/archive/refs/heads/main.zip",
-            .hash = "wstdout-0.0.0-NzcItDQsAABIWwVwJTpbQGgle-UWCNFPklcKhfva6jIy",
+            .hash = "wstdout-0.0.0-NzcItDYuAABq_I4sypds9hUrv74YXACQvj1Ixk7yn4ln",
         },
     },
     .paths = .{

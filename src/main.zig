@@ -24,8 +24,19 @@ pub fn get_writer() *std.Io.Writer {
 }
 
 pub fn main() !void {
-    var w: *std.Io.Writer = wstdout.get_writer();
+    // var w = wstdout.Writer.init(1024);
 
-    try w.print("test library\n", .{});
+    // try w.interface.print("test library\n", .{});
+    // try w.interface.flush();
+
+    // OUTPUT
+    // test library
+
+    var w = wstdout.Writer.create(1024);
+    try w.print("test library again\n", .{});
     try w.flush();
+
+    // OUTPUT
+    // test library again
+
 }
